@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;700;900&display=swap');
+
+html {
+  font-family: 'Roboto', 'sans-serif';
+}
+body {
+  color: white;
+  background: rgb(32, 37, 41);
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  background-color: rgb(28, 57, 82);
+  width: 600px;
+  height: 300px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.text-container:hover {
+  transform: scale(110%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 0.1rem rgba(0, 0, 0, 0.3);
+}
+.text-container:active {
+  background-color: rgb(53, 113, 165);
+}
+.text-container:active .fa-github {
+  filter: drop-shadow(2px 2px 1rem rgba(255, 255, 255, 0.6));
+}
+
+.fa-github {
+  font-size: 4rem;
+  margin: 1rem 0 0;
+}
+h1 {
+  font-size: 4rem;
+  margin: 1.4rem 0;
+}
+p {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  margin: 0;
+}
