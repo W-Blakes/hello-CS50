@@ -4,6 +4,13 @@ html {
   font-family: 'Roboto', 'sans-serif';
 }
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   color: white;
   background: rgb(32, 37, 41);
 }
